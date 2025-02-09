@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Force button visibility */
+button {
+  background: #0f0 !important;
+  color: #000 !important;
+  border: none !important;
+  padding: 1rem 2rem !important;
+  margin: 1rem 0 !important;
+  cursor: pointer;
+  font-family: 'Press Start 2P' !important;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #0a0 !important;
+  }
+}
